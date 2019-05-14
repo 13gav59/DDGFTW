@@ -7,8 +7,8 @@
 // @include      http://www.google.*
 // @include      https://www.google.*
 // ==/UserScript==
-
 'use strict';
+
 var searchBox = document.getElementsByTagName("input");
 for(var i=0; i < searchBox.length; i++) {
  if(searchBox[i].type == "text") {
